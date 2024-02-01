@@ -1,0 +1,96 @@
+ .homebgpic{
+   background-position: center;
+   /* position: absolute; */
+   top: 0;
+   left: 0;
+   animation: animate 16s ease-in-out infinite;
+   width: 100%;
+   margin: 20px 0;
+   height: 100vh;
+   background-size: cover;
+  }
+  @keyframes animate{
+    0%,100%{
+    background-image: url('/src/pizza images/logo.jpg');
+    
+  }
+  25%{
+    background-image: url('/src/pizza images/one.jpg') ;
+  }
+  50%{
+    background-image: url('/src/pizza images/two.webp') ;
+  }
+  75%{
+  background-image: url('/src/pizza images/three.jpeg') ;
+  }
+}
+ .home-container {
+    position: relative;
+
+  }
+   
+  .home-text {
+    position: absolute;
+    font-size: 57px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .home-text i,
+.home-text button {
+  display: block; /* Make both <i> and <button> block elements */
+}
+  .home-text button {
+    background-color: red;
+    color: white;
+    padding: 15px 29px;
+    border: none;
+    margin: 40px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    top: 30;
+    /* position: relative; */
+
+  }
+  .home-text button:hover{
+    background-color: rgb(241, 131, 131);
+  }
+  .home-text button:hover{
+    
+      box-shadow: 0px 0px 15px 5px rgb(112, 93, 93);
+      transition: 0.35s all;
+      transform: scale(1.08);
+    
+  }
+  .orderbtn{
+    background-color: red;
+    color: white;
+    padding: 13px 9px;
+    border: none;
+    margin: 0px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .heading{
+    color: white;
+  }
+  .sideimage{
+    position: absolute;
+    width: 357px;
+    top: 7%;
+    left: 64%;
+    height: 415px;
+  }
+  .sideimage:hover{
+    box-shadow: 0px 0px 15px 5px white;
+    transition: 0.35s all;
+    transform: scale(1.08);
+  }
+  .bestoffer{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+  }
+  

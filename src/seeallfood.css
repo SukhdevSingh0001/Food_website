@@ -1,0 +1,31 @@
+
+  .popup-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .popup-card h2 {
+    color: green;
+  }
+  
+  .popup-card p {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .popup-card button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
